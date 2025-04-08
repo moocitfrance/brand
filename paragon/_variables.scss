@@ -59,8 +59,8 @@ $green:   #0D7D4D !default;
 //   $colors
 // );
 
-$primary: #00262B !default; // elm
-$brand: #D23228 !default;
+$primary: #181818 !default; // elm
+$brand: #ffb81c !default;
 $success: $green !default;
 $info: $blue !default;
 $danger: $red !default;
@@ -99,7 +99,7 @@ $primary-600: #002326;
 $primary-700: #002121;
 
 $brand-500: $brand;
-$brand-700: #921108;
+$brand-700: #efa70c;
 
 $light-200: #FBFAF9;
 $light-300: #F2F0EF;
@@ -307,7 +307,7 @@ $body-color:                $gray-700 !default;
 //
 // Style anchor elements.
 
-$link-color:                $info !default;
+$link-color:                $primary !default;
 $link-decoration:           none !default;
 $link-hover-color:          $info-700 !default;
 $link-hover-decoration:     underline !default;

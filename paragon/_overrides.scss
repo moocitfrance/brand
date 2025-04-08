@@ -78,8 +78,10 @@
   }
 
   .btn-#{$color} {
+    transition: all 0.2s ease-in-out;
     &:hover {
       border-color: transparent;
+      background-color: $primary;
     }
 
     &.focus, &:focus {
