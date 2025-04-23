@@ -1,7 +1,6 @@
 // This file is included after all of Bootstrap. Any customization that can't
 // be made using variable definitions should be done here.
 
-
 // Alerts
 
 .alert-dismissible .close {
@@ -12,7 +11,6 @@
     color: theme-color("gray");
   }
 }
-
 
 // Badges
 
@@ -47,20 +45,23 @@
   }
 }
 
-
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
     background: $white;
     border-color: $light-300;
 
     &:not(:disabled):not(.disabled) {
-      &:hover, &:active, &.hover, &.active {
+      &:hover,
+      &:active,
+      &.hover,
+      &.active {
         background: $value;
         border-color: $value;
         color: $white;
       }
 
-      &:focus, &.focus {
+      &:focus,
+      &.focus {
         background: $white;
         color: $value;
         border-color: $light-300;
@@ -71,7 +72,8 @@
       }
     }
 
-    &:disabled, &.disabled {
+    &:disabled,
+    &.disabled {
       border-color: $light-300;
       background-color: $white;
     }
@@ -82,9 +84,11 @@
     &:hover {
       border-color: transparent;
       background-color: $primary;
+      color: white;
     }
 
-    &.focus, &:focus {
+    &.focus,
+    &:focus {
       background: $value;
 
       &::before {
@@ -95,19 +99,24 @@
 }
 
 .btn-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
+  &:focus,
+  &.focus {
     background: $btn-tertiary-bg;
   }
 }
 
 .btn-primary:not(:disabled):not(.disabled) {
-  &:hover, &:active, &.hover, &.active {
+  &:hover,
+  &:active,
+  &.hover,
+  &.active {
     background: $primary-300;
     border-color: transparent;
     color: $white;
   }
 
-  &:focus, &.focus {
+  &:focus,
+  &.focus {
     background: $primary-500;
   }
 }
@@ -118,13 +127,17 @@
   border-color: $gray-500;
 
   &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
+    &:hover,
+    &:active,
+    &.hover,
+    &.active {
       background: $white;
       border-color: transparent;
       color: $primary;
     }
 
-    &:focus, &.focus {
+    &:focus,
+    &.focus {
       background: transparent;
       border-color: $gray-500;
       color: $white;
@@ -142,7 +155,10 @@
   border-color: $white;
 
   &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
+    &:hover,
+    &:active,
+    &.hover,
+    &.active {
       background: $brand;
       border-color: transparent;
       color: $white;
@@ -150,7 +166,8 @@
   }
 
   &:not(:disabled):not(.disabled) {
-    &:focus, &.focus {
+    &:focus,
+    &.focus {
       background: transparent;
       border-color: $white;
 
@@ -167,13 +184,17 @@
   border-color: transparent;
 
   &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
+    &:hover,
+    &:active,
+    &.hover,
+    &.active {
       background: $brand-700;
       border-color: transparent;
       color: white;
     }
 
-    &:focus, &.focus {
+    &:focus,
+    &.focus {
       background-color: $brand-500;
 
       &:before {
@@ -182,7 +203,8 @@
     }
   }
 
-  &:disabled, &.disabled {
+  &:disabled,
+  &.disabled {
     background-color: $brand-500;
     border-color: $brand-500;
     color: $white;
@@ -190,7 +212,8 @@
 }
 
 .btn-inverse-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
+  &:focus,
+  &.focus {
     background: transparent;
 
     &:before {
@@ -205,13 +228,17 @@
   border-color: transparent;
 
   &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
+    &:hover,
+    &:active,
+    &.hover,
+    &.active {
       background: $primary-300;
       border-color: transparent;
       color: $white;
     }
 
-    &:focus, &.focus {
+    &:focus,
+    &.focus {
       background: $white;
       color: $primary-500;
 
@@ -221,7 +248,8 @@
     }
   }
 
-  &:disabled, &.disabled {
+  &:disabled,
+  &.disabled {
     background-color: $white;
     border-color: $white;
   }
@@ -248,12 +276,12 @@
     font-weight: 400;
     &:before {
       background-image: str-replace($icon, "#", "%23");
-      content: '';
-      height:1rem;
-      width:1rem;
+      content: "";
+      height: 1rem;
+      width: 1rem;
       display: inline-block;
       vertical-align: text-bottom;
-      margin-right: .3em;
+      margin-right: 0.3em;
     }
   }
 
@@ -305,7 +333,6 @@ select.form-control {
   padding-right: $grid-gutter-width;
 }
 
-
 // Typography
 
 body {
@@ -313,7 +340,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   line-height: calc((44 / 16) * 1rem);
   letter-spacing: -2%;
 
@@ -325,23 +353,28 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   line-height: calc((36 / 16) * 1rem);
 }
 
-h3, .h3 {
+h3,
+.h3 {
   line-height: calc((28 / 16) * 1rem);
 }
 
-h4, .h4 {
+h4,
+.h4 {
   line-height: calc((24 / 16) * 1rem);
 }
 
-h5, .h5 {
+h5,
+.h5 {
   line-height: calc((20 / 16) * 1rem);
 }
 
-h6, .h6 {
+h6,
+.h6 {
   line-height: calc((20 / 16) * 1rem);
 }
 
@@ -360,7 +393,7 @@ h6, .h6 {
 p > a[href]:not(.btn),
 a.inline-link {
   text-decoration-line: underline;
-  text-decoration-color: rgba($link-color, .3);
+  text-decoration-color: rgba($link-color, 0.3);
   &:hover {
     text-decoration-color: rgba($link-color, 1);
   }
