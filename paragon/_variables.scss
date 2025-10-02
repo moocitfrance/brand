@@ -70,6 +70,8 @@ $dark: #00262b !default; // elm
 $accent-a: #e1e1e1 !default; // isotope blue
 $accent-b: #f0cc00 !default; // oxide yellow
 
+$beige: #f6f5ea !default;
+
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
@@ -143,6 +145,8 @@ $theme-color-levels: () !default;
 
 $theme-color-levels: map-merge(
   (
+    "beige": $beige,
+
     "gray-100": $gray-100,
     "gray-200": $gray-200,
     "gray-300": $gray-300,
