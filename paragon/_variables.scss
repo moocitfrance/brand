@@ -59,19 +59,22 @@ $green: #0d7d4d !default;
 //   $colors
 // );
 
+$beige: #f6f5ea !default;
+$ocre: #e6d5b67d !default;
+$orange: #EB6526!default;
+
 $primary: #2b2f35 !default; // elm
-$brand: #2b2f35 !default;
+$brand: #213A88 !default;
 $success: $green !default;
 $info: $blue !default;
 $danger: $red !default;
 $warning: $yellow !default;
-$light: #e1dddb !default; // limestone
+$light: $beige !default; // limestone
 $dark: #00262b !default; // elm
 $accent-a: #e1e1e1 !default; // isotope blue
 $accent-b: #f0cc00 !default; // oxide yellow
 
-$beige: #f6f5ea !default;
-$ocre: #e6d5b6 !default;
+
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -88,6 +91,7 @@ $theme-colors: map-merge(
     "accent-b": $accent-b,
     "beige": $beige,
     "ocre": $ocre,
+    "orange": $orange,
   ),
   $theme-colors
 );
@@ -150,6 +154,7 @@ $theme-color-levels: map-merge(
   (
     "beige": $beige,
     "ocre": $ocre,
+    "orange": $orange,
 
     "gray-100": $gray-100,
     "gray-200": $gray-200,
@@ -363,11 +368,11 @@ $line-height-lg: 1.5 !default;
 $line-height-sm: 1.5 !default;
 
 // $border-width:                1px !default;
-// $border-color:                $gray-300 !default;
+ $border-color:                $ocre !default;
 
-$border-radius: 0.375rem !default;
-$border-radius-lg: 0.375rem !default;
-$border-radius-sm: 0.375rem !default;
+$border-radius: 0rem !default;
+$border-radius-lg: 0.275rem !default;
+$border-radius-sm: 0.175rem !default;
 
 // $rounded-pill:                50rem !default;
 
@@ -413,7 +418,7 @@ $caret-spacing: $caret-width * 1 !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Space Grotesk", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
 $font-family-monospace: "Space Grotesk", SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 $font-family-serif: $font-family-sans-serif !default;

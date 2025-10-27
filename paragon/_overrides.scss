@@ -29,6 +29,7 @@
 
 .btn {
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .btn-link {
@@ -317,6 +318,7 @@ body {
 h1, .h1 {
   line-height: calc((44 / 16) * 1rem);
   letter-spacing: -2%;
+  font-family: $font-family-monospace;
 
   @media (max-width: map-get($grid-breakpoints, "sm")) {
     line-height: calc((40 / 16) * 1rem);
@@ -328,22 +330,27 @@ h1, .h1 {
 
 h2, .h2 {
   line-height: calc((36 / 16) * 1rem);
+  font-family: $font-family-monospace;
 }
 
 h3, .h3 {
   line-height: calc((28 / 16) * 1rem);
+  font-family: $font-family-monospace;
 }
 
 h4, .h4 {
   line-height: calc((24 / 16) * 1rem);
+  font-family: $font-family-monospace;
 }
 
 h5, .h5 {
   line-height: calc((20 / 16) * 1rem);
+  font-family: $font-family-monospace;
 }
 
 h6, .h6 {
   line-height: calc((20 / 16) * 1rem);
+  font-family: $font-family-monospace;
 }
 
 .lead {
