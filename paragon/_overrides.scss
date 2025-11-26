@@ -319,6 +319,7 @@ h1, .h1 {
   line-height: calc((44 / 16) * 1rem);
   letter-spacing: -2%;
   font-family: $font-family-monospace;
+  font-weight: 500;
 
   @media (max-width: map-get($grid-breakpoints, "sm")) {
     line-height: calc((40 / 16) * 1rem);
@@ -331,6 +332,7 @@ h1, .h1 {
 h2, .h2 {
   line-height: calc((36 / 16) * 1rem);
   font-family: $font-family-monospace;
+  font-weight: 500;
 }
 
 h3, .h3 {
