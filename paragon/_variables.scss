@@ -61,10 +61,10 @@ $green: #0d7d4d !default;
 
 $beige: #f6f5ea !default;
 $ocre: #e6d5b67d !default;
-$orange: #eb6526 !default;
+$orange: #f0754d !default;
 
 $primary: #2b2f35 !default; // elm
-$brand: #eb6526 !default;
+$brand: #f0754d !default;
 $success: $green !default;
 $info: $blue !default;
 $danger: $red !default;
@@ -416,8 +416,8 @@ $caret-spacing: $caret-width * 1 !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
-$font-family-monospace: "Space Grotesk", SFMono-Regular, Menlo, Monaco, Consolas,
+$font-family-sans-serif: "Lato", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace: "Roboto", SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 $font-family-serif: $font-family-sans-serif !default;
 // $font-family-base:            $font-family-sans-serif !default;
