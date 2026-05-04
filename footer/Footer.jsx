@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import logo from '../logo.svg';
-import './Footer.scss';
+import logo from "../logo_white.svg";
+import "./Footer.scss";
 
 const Footer = () => (
   <footer className="brand-footer">
