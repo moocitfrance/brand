@@ -61,10 +61,10 @@ $green: #0d7d4d !default;
 
 $beige: #f6f5ea !default;
 $ocre: #e6d5b67d !default;
-$orange: #f0754d !default;
+$orange: #ffa663 !default;
 
 $primary: #2b2f35 !default; // elm
-$brand: #f0754d !default;
+$brand: #ffa663 !default;
 $success: $green !default;
 $info: $blue !default;
 $danger: $red !default;
@@ -376,13 +376,17 @@ $border-radius-sm: 0.175rem !default;
 
 // Elevation
 
-$level-1-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15),
+$level-1-box-shadow:
+  0px 2px 8px 0px rgba(0, 0, 0, 0.15),
   0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-$level-2-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15),
+$level-2-box-shadow:
+  0px 4px 10px 0px rgba(0, 0, 0, 0.15),
   0px 8px 16px 0px rgba(0, 0, 0, 0.15);
-$level-3-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15),
+$level-3-box-shadow:
+  0px 8px 20px 0px rgba(0, 0, 0, 0.15),
   0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-$level-4-box-shadow: 0px 8px 48px 0px rgba(0, 0, 0, 0.15),
+$level-4-box-shadow:
+  0px 8px 48px 0px rgba(0, 0, 0, 0.15),
   0px 20px 40px 0px rgba(0, 0, 0, 0.15);
 
 $box-shadow-sm: $level-1-box-shadow !default;
@@ -417,8 +421,9 @@ $caret-spacing: $caret-width * 1 !default;
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif: "Lato", "Helvetica Neue", Arial, sans-serif !default;
-$font-family-monospace: "Roboto", SFMono-Regular, Menlo, Monaco, Consolas,
-  "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace:
+  "Roboto", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  "Courier New", monospace !default;
 $font-family-serif: $font-family-sans-serif !default;
 // $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
