@@ -1,9 +1,3 @@
-// Runtime GAB theme overrides for Paragon 23+.
-//
-// Keep these CSS custom properties aligned with dist/core.css and
-// dist/light.css. They are duplicated here for MFEs that still import
-// @edx/brand/paragon/overrides directly instead of consuming dist theme CSS.
-
 :root {
   --pgn-color-white: #ffffff;
   --pgn-color-black: #000000;
@@ -14,7 +8,6 @@
   --pgn-color-teal: #00688d;
   --pgn-color-accent-a: #e1e1e1;
   --pgn-color-accent-b: #f0cc00;
-
   --pgn-color-gray-100: #ebebeb;
   --pgn-color-gray-200: #cccccc;
   --pgn-color-gray-300: #adadad;
@@ -25,7 +18,6 @@
   --pgn-color-gray-700: #454545;
   --pgn-color-gray-800: #333333;
   --pgn-color-gray-900: #212529;
-
   --pgn-color-primary-base: #002d43;
   --pgn-color-primary-100: #f2f4f5;
   --pgn-color-primary-200: #ccd5d9;
@@ -36,7 +28,6 @@
   --pgn-color-primary-700: #0e0e0e;
   --pgn-color-primary-800: #0b0b0b;
   --pgn-color-primary-900: #080808;
-
   --pgn-color-secondary-base: var(--pgn-color-gray-700);
   --pgn-color-secondary-100: #f4f4f4;
   --pgn-color-secondary-200: #d1d1d1;
@@ -47,7 +38,6 @@
   --pgn-color-secondary-700: #373737;
   --pgn-color-secondary-800: #343434;
   --pgn-color-secondary-900: #303030;
-
   --pgn-color-brand-base: #be0519;
   --pgn-color-brand-100: #fcf1f4;
   --pgn-color-brand-200: #f3aea9;
@@ -58,7 +48,6 @@
   --pgn-color-brand-700: #efa70c;
   --pgn-color-brand-800: #8f0313;
   --pgn-color-brand-900: #690e07;
-
   --pgn-color-success-base: var(--pgn-color-green);
   --pgn-color-success-100: #f2faf7;
   --pgn-color-success-200: #bbe6d7;
@@ -69,7 +58,6 @@
   --pgn-color-success-700: #175b3c;
   --pgn-color-success-800: #145236;
   --pgn-color-success-900: #0f4d0f;
-
   --pgn-color-info-base: var(--pgn-color-blue);
   --pgn-color-info-100: #eff8fa;
   --pgn-color-info-200: #9cd2e6;
@@ -80,7 +68,6 @@
   --pgn-color-info-700: #004972;
   --pgn-color-info-800: #003f62;
   --pgn-color-info-900: #002f4a;
-
   --pgn-color-warning-base: var(--pgn-color-yellow);
   --pgn-color-warning-100: #f6f5ea;
   --pgn-color-warning-200: #ffea75;
@@ -91,7 +78,6 @@
   --pgn-color-warning-700: #998200;
   --pgn-color-warning-800: #8a7500;
   --pgn-color-warning-900: #7a6800;
-
   --pgn-color-danger-base: var(--pgn-color-red);
   --pgn-color-danger-100: #fcf1f4;
   --pgn-color-danger-200: #f3aea9;
@@ -102,7 +88,6 @@
   --pgn-color-danger-700: #951c13;
   --pgn-color-danger-800: #7c120d;
   --pgn-color-danger-900: #690e07;
-
   --pgn-color-light-base: #f6f5ea;
   --pgn-color-light-100: #fdfdfd;
   --pgn-color-light-200: #fbfaf9;
@@ -113,7 +98,6 @@
   --pgn-color-light-700: #d7d3d1;
   --pgn-color-light-800: #c3bfbd;
   --pgn-color-light-900: #aaa6a4;
-
   --pgn-color-dark-base: #00262b;
   --pgn-color-dark-100: #f2f4f4;
   --pgn-color-dark-200: var(--pgn-color-primary-300);
@@ -124,7 +108,6 @@
   --pgn-color-dark-700: var(--pgn-color-primary-700);
   --pgn-color-dark-800: var(--pgn-color-primary-800);
   --pgn-color-dark-900: var(--pgn-color-primary-900);
-
   --pgn-color-body-base: var(--pgn-color-gray-700);
   --pgn-color-headings-base: var(--pgn-color-dark-500);
   --pgn-color-link-base: var(--pgn-color-primary-base);
