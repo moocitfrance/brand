@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../logo.svg';
+import logo from '../logo-white.png';
 import './Footer.scss';
 
 const Footer = () => (
@@ -14,10 +14,8 @@ const Footer = () => (
         />
       </a>
       <nav className="brand-footer__links" aria-label="Footer">
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/tos">Terms of service</a>
-        <a href="/privacy">Privacy policy</a>
+        <a href="/tos">Conditions d'utilisation</a>
+        <a href="/privacy">Politique de confidentialité</a>
       </nav>
     </div>
   </footer>
