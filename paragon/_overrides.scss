@@ -4,6 +4,8 @@
 // dist/light.css. They are duplicated here for MFEs that still import
 // @edx/brand/paragon/overrides directly instead of consuming dist theme CSS.
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root {
   --pgn-color-white: #ffffff;
   --pgn-color-black: #000000;
@@ -136,6 +138,7 @@
   --pgn-color-link-brand-base: var(--pgn-color-brand-500);
   --pgn-color-link-brand-inline-base: var(--pgn-color-brand-500);
 
+  --pgn-typography-headings-font-family: "Poppins", var(--pgn-typography-font-family-sans-serif);
   --pgn-typography-font-family-monospace: "Poppins", var(--pgn-typography-font-family-sans-serif);
   --pgn-typography-font-family-headings: "Poppins", var(--pgn-typography-font-family-sans-serif);
 }

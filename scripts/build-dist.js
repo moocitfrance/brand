@@ -19,19 +19,25 @@ function shortenHexColors(css) {
 }
 
 function buildExpandedCoreCss(source) {
+  const importLines = source
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(line => line.startsWith('@import '));
   const rootStart = source.indexOf(':root');
 
   if (rootStart === -1) {
     throw new Error(`Could not find a :root block in ${overridesPath}`);
   }
 
-  return `${source
+  const rootCss = source
     .slice(rootStart)
     .split(/\r?\n/)
     .map(line => line.replace(/\s+$/u, ''))
     .filter(line => line.trim() !== '' && !line.trim().startsWith('//'))
     .join('\n')
-    .trim()}\n`;
+    .trim();
+
+  return `${[...importLines, rootCss].join('\n')}\n`;
 }
 
 function minifyCss(css) {
