@@ -111,6 +111,23 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
   @import "@edx/paragon/scss/core/core";
   @import "@edx/brand/paragon/overrides";
 
+Runtime Paragon Theme CSS
+-------------------------
+
+Ulmo MFEs using ``@openedx/frontend-build`` read the prebuilt runtime theme files from
+``dist/theme-urls.json``. Installing this package does not rebuild those files from
+``paragon/_overrides.scss``.
+
+After changing CSS custom properties in ``paragon/_overrides.scss``, rebuild and commit
+the generated files:
+
+.. code-block:: bash
+
+  npm run build:dist
+
+This updates ``dist/core.css``, ``dist/core.min.css``, ``dist/light.css``, and
+``dist/light.min.css``.
+
 
 --------------------------------
 Publishing with Semantic Release
