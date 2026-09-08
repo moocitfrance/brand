@@ -1,6 +1,6 @@
 {
   "name": "@edx/brand-edx.org",
-  "version": "1.2.3-cgf.0",
+  "version": "1.2.3-cgf.1",
   "description": "A package containing brand elements and SASS themes for edx.org",
   "scripts": {
     "build:dist": "node scripts/build-dist.js"
